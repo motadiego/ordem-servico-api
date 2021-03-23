@@ -65,4 +65,4 @@ Este projeto foi desenvolvido com a finalidade de capacitação pessoal, utiliza
 
 ---
 
-Desenvolvido por [Diego Alves Marinho da Mota (https://www.linkedin.com/in/diego-alves-b3349819a/)
+Desenvolvido por [Diego Alves Marinho da Mota] (https://www.linkedin.com/in/diego-alves-b3349819a/)
