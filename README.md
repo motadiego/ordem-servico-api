@@ -34,12 +34,15 @@ $ git clone https://github.com/motadiego/ordem-servico-api.git
 
 - Este projeto é uma API REST, desenvolvida em Java com Spring-Boot, tendo como base o cadastro e leitura de Clientes e suas Ordens de serviços.
 - Para realizar a comunicação de uma aplicação front-end ou algum sistema de testes dos métodos HTTP, foi configurada uma rota que pode ser acessada pelo link: http://localhost:8080, após startar o projeto.
+
+# Cliente
 - Para cadastrar um novo cliente, foi configurado o método HTTP POST, na rota '/api/clientes', http://localhost:8080/api/clientes.
 - Para listar os clientes cadastrados, foi configurado o método HTTP GET, na rota '/api/clientes', http://localhost:8080/api/clientes.
 - Para listar um cliente específico cadastrado, foi configurado o método HTTP GET, na rota 'api/clientes/${id}', http://localhost:8080/api/clientes/${id}, sendo necessário informar por parâmetro o ID do cliente esperado.
 - Para editar um cliente cadastrado, foi configurado o método HTTP PUT, na rota 'api/clientes', http://localhost:8080/api/clientes, sendo necessário passar o objeto cliente com todas as informações, principalmente o ID, para editar o cliente.
 - Para apagar um cliente cadastrado, foi configurado o método HTTP DELETE, na rota 'api/clientes', http://localhost:8080/api/clientes, sendo necessário passar o ID, para deletar o cliente.
 
+# Ordem de serviço
 - Para cadastrar uma ordem de serviço, foi configurado o método HTTP POST, na rota '/api/ordemservico', http://localhost:8080/api/ordemservico.
 - Para listar as ordens de serviços cadastradas, foi configurado o método HTTP GET, na rota '/api/ordemservico', http://localhost:8080/api/ordemservico.
 - Para listar uma ordem de serviço específica cadastrada, foi configurado o método HTTP GET, na rota 'api/ordemservico/${id}', http://localhost:8080/api/ordemservico/${id}, sendo necessário informar por parâmetro o ID da ordem de serviço esperada.
