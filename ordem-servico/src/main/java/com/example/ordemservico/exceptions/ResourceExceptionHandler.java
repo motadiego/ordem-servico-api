@@ -41,11 +41,11 @@ public class ResourceExceptionHandler {
 	public ResponseEntity<StandardError> entityNotBeExcluded(DataIntegrationException e , HttpServletRequest  request){
 		StandardError err = new StandardError();
 		err.setTimestamp(Instant.now());
-		err.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
+		err.setStatus(HttpStatus.BAD_REQUEST.value());
 		err.setError("Entity cannot be excluded");
 		err.setMessage(e.getMessage());
 		err.setPath(request.getRequestURI());
-		return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(err);
+		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(err);
 	}
 	
 	
