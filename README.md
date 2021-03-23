@@ -20,7 +20,7 @@ Para clonar e compilar este projeto, você precisará [Git](https://git-scm.com)
 [Java 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou superior instalado em seu
 computador:
 
-```bash
+
 # Clone this repository
 $ git clone https://github.com/motadiego/ordem-servico-api.git
 
